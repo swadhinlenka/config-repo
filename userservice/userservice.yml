@@ -14,8 +14,8 @@ spring:
     password: "root"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"    
-server:
-  port: 8081
+#server:
+#  port: 8081
 eureka:
   instance:
     preferIpAddress: true
